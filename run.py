@@ -1,4 +1,7 @@
 #!/usr/bin/python
+
+# based on https://discussions.apple.com/thread/7017798?start=15&tstart=0
+
 import sys
 
 # variables to watch - change this as needed, e.g. ["type1", "type2", "..."]
@@ -7,7 +10,7 @@ field_separator = ";"
 line_separator = "\n"
 
 
-### DO NOT CHANGE ANYTHING BELOW THIS LINE
+### DO NOT CHANGE ANYTHING BELOW THIS LINE ###
 if (len(sys.argv) <= 2):
     print("Usage: ./extractHeartRate.py imput.xml output.csv\n")
     quit()
